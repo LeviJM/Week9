@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="Pictures/kingburger.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="home.html" style="margin-left: 2%;"><img src="Pictures/kingburger.png" width="50">Burger Coin</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+        aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu" style="margin-right: 2%;">
+            <ul class="navbar-nav ms-auto text-center">
+                <li>
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="burgercoin.html">About</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="wallets.html">Why Use BurgerCoin?</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="gimmemoney.html">Buy Now!</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <img src="Pictures/FryinIt.jpg" class="backPic">
+
+
+    <div class="bigHeader">Buy Burger Coin Today!</div>
+
+
+    <form class="creditCardFraud">
+        <div class="row">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="price" id="price1" value="option1" checked>
+                    <label class="form-check-label" for="price1">
+                      1 BurgerCoin
+                    </label>
+                  </div>
+            </div>
+            <div class="col money">
+                2500000 ₫
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="price" id="price2" value="option2">
+                    <label class="form-check-label" for="price2">
+                      5 BurgerCoins
+                    </label>
+                  </div>
+            </div>
+            <div class="col money">
+                12500000 ₫
+            </div> 
+        </div>    
+        <div class="row">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="price" id="price3" value="option3">
+                    <label class="form-check-label" for="price3">
+                      10 BurgerCoins
+                    </label>
+                  </div>  
+            </div>
+            <div class="col money">
+                25000000 ₫
+            </div>
+        </div>        
+        <div class="form-group">
+          <label for="burgInfo">Number</label>
+          <input class="form-control" id="burgInfo" placeholder="XXXX-XXXX-XXXX-XXXX">
+          <small class="form-text text-muted">You can definitely trust us with your information!</small>
+        </div>
+        <div class="form-group">
+          <label for="expirationDate">Expiration</label>
+          <input class="form-control" id="expirationDate" placeholder="XX/XX">
+        </div>
+        <div class="form-group">
+            <label for="ccv">Those 3 Wacky Numbers On The Back!</label>
+            <input class="form-control" id="ccv" placeholder="Almost There!">
+          </div>
+        <a href="">Terms and Conditions</a>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="terms">
+          <label class="form-check-label" for="terms">I Agree</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Checkout</button>
+      </form>
+</body>
+</html>

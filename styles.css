@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'BurgerKing';
+    src: url(Insanibc.ttf);
+}
+
+nav {
+    font-family: 'BurgerKing';
+}
+
+h1 {
+    font-family: 'BurgerKing';
+    text-align: center;
+    color: rgb(16, 16, 211);;
+}
+
+.bigHeader {
+    color: rgb(16, 16, 211);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 100px;
+    font-family: 'BurgerKing';
+}
+
+.theKing {
+    margin-top: 100px;
+}
+
+.creditCardFraud {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+
+form div {
+    font-family: 'BurgerKing';
+}
+
+
+.backPic {
+    position: absolute;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .backPic{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .backPic{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+.backVideo {
+    position: absolute;
+    top: 5%;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .backVideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 9/16){
+    .backVideo{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.money {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.up {
+    color: green;
+}
+
+.down {
+    color: red;
+}
+
+.burgerStats{
+    margin-top: 75px;
+    max-width: 50%;
+    background-color: antiquewhite;
+}
+
+h4 {
+    font-family: 'BurgerKing';
+    color: rgb(16, 16, 211);
+    margin-left: 15%;
+    margin-right: 15%;
+}
